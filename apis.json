@@ -1,0 +1,57 @@
+{
+    "name": "Steem",
+    "description": "<p>A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.<br \/><br \/><\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26649-steemit.jpg",
+    "tags": [
+        "blockchain",
+        "content",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/steem\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Interactive Steem API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26649-steemit.jpg",
+            "humanURL": "http:\/\/steemit.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/interactive-steem-api.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/interactive-steem-api-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/steemit.com"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/steemit.com\/@ripaex"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developers.steem.io\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/steemit"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/steem.io"
+        }
+    ]
+}
