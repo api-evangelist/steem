@@ -1,0 +1,1411 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Interactive Steem API",
+        "description": "Interactive Steem API lets you interact with Steem Blockchain and make a request, get output and start implementing new apps! APIs have default parameters set to get you started and see how request works. API list is compiled from [Steem Github](https:\/\/github.com\/steemit\/steem) [1](https:\/\/github.com\/steemit\/steem\/tree\/master\/libraries\/app\/include\/steemit\/app\/api.hpp) and [2](https:\/\/github.com\/steemit\/steem\/tree\/master\/libraries\/app\/include\/steemit\/app\/database_api.hpp). If you want to contribute documenting detail of properties and output, contact [@good-karma](https:\/\/steemit.chat\/direct\/good-karma). You can also check full list here [Steem.js](https:\/\/steemjs.com)",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.steemjs.com\/"
+    ],
+    "paths": {
+        "\/get_version": {
+            "get": {
+                "summary": "get version of Steem",
+                "description": "Returns version information of connected Steem node\/websocket.\n",
+                "operationId": "ReturnsVersionInformationOfConnectedSteemNodewebsocket",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_account_count": {
+            "get": {
+                "summary": "number of accounts",
+                "description": "Get Number of Accounts from Steem\n",
+                "operationId": "GetNumberOfAccountsFromSteem",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_chain_properties": {
+            "get": {
+                "summary": "get chain properties",
+                "description": "get chain properties\n",
+                "operationId": "GetChainProperties",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_config": {
+            "get": {
+                "summary": "get config",
+                "description": "get config\n",
+                "operationId": "GetConfig",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_dynamic_global_properties": {
+            "get": {
+                "summary": "get_dynamic_global_properties",
+                "description": "get_dynamic_global_properties\n",
+                "operationId": "GetDynamicGlobalProperties",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_feed_history": {
+            "get": {
+                "summary": "get_feed_history",
+                "description": "get_feed_history\n",
+                "operationId": "GetFeedHistory",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_current_median_history_price": {
+            "get": {
+                "summary": "get_current_median_history_price",
+                "description": "get_current_median_history_price\n",
+                "operationId": "GetCurrentMedianHistoryPrice",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_hardfork_version": {
+            "get": {
+                "summary": "get_hardfork_version",
+                "description": "get_hardfork_version\n",
+                "operationId": "GetHardforkVersion",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_next_scheduled_hardfork": {
+            "get": {
+                "summary": "get_next_scheduled_hardfork",
+                "description": "get_next_scheduled_hardfork\n",
+                "operationId": "GetNextScheduledHardfork",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_witness_count": {
+            "get": {
+                "summary": "get_witness_count",
+                "description": "get_witness_count\n",
+                "operationId": "GetWitnessCount",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/lookup_witness_accounts": {
+            "get": {
+                "summary": "lookup_witness_accounts",
+                "description": "lookup_witness_accounts regex search\n",
+                "operationId": "LookupWitnessAccountsRegexSearch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "lowerBoundName",
+                        "in": "query",
+                        "description": "lowerBoundName."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_witness_schedule": {
+            "get": {
+                "summary": "get_witness_schedule",
+                "description": "get_witness_schedule\n",
+                "operationId": "GetWitnessSchedule",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_witnesses": {
+            "get": {
+                "summary": "get_witnesses",
+                "description": "get_witnesses\n",
+                "operationId": "GetWitnesses",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "witnessIds",
+                        "in": "query",
+                        "description": "witnessIds."
+                    }
+                ]
+            }
+        },
+        "\/get_witness_by_account": {
+            "get": {
+                "summary": "get_witness_by_account",
+                "description": "get_witness_by_account\n",
+                "operationId": "GetWitnessByAccount",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "accountName",
+                        "in": "query",
+                        "description": "witness account name."
+                    }
+                ]
+            }
+        },
+        "\/get_witnesses_by_vote": {
+            "get": {
+                "summary": "get_witnesses_by_vote",
+                "description": "get_witnesses_by_vote\n",
+                "operationId": "GetWitnessesByVote",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "from witness."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_active_witnesses": {
+            "get": {
+                "summary": "get_active_witnesses",
+                "description": "get_active_witnesses\n",
+                "operationId": "GetActiveWitnesses",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/witness_update": {
+            "get": {
+                "summary": "witness_update",
+                "description": "witness_update\n",
+                "operationId": "WitnessUpdate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "owner",
+                        "in": "query",
+                        "description": "witness name"
+                    },
+                    {
+                        "name": "url",
+                        "in": "query",
+                        "description": "url."
+                    },
+                    {
+                        "name": "block_signing_key",
+                        "in": "query",
+                        "description": "block_signing_key."
+                    },
+                    {
+                        "name": "fee",
+                        "in": "query",
+                        "description": "fee."
+                    },
+                    {
+                        "name": "props",
+                        "in": "query",
+                        "description": "props."
+                    }
+                ]
+            }
+        },
+        "\/get_miner_queue": {
+            "get": {
+                "summary": "get_miner_queue",
+                "description": "get_miner_queue\n",
+                "operationId": "GetMinerQueue",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_liquidity_queue": {
+            "get": {
+                "summary": "get_liquidity_queue",
+                "description": "get_liquidity_queue\n",
+                "operationId": "GetLiquidityQueue",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "startAccount",
+                        "in": "query",
+                        "description": "account name."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_open_orders": {
+            "get": {
+                "summary": "get_open_orders",
+                "description": "get_open_orders\n",
+                "operationId": "GetOpenOrders",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "owner",
+                        "in": "query",
+                        "description": "witness name"
+                    }
+                ]
+            }
+        },
+        "\/get_order_book": {
+            "get": {
+                "summary": "get_order_book",
+                "description": "get_order_book\n",
+                "operationId": "GetOrderBook",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_active_categories": {
+            "get": {
+                "summary": "get active categories",
+                "description": "get tags\n",
+                "operationId": "GetTags",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "after",
+                        "in": "query",
+                        "description": "after string."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_best_categories": {
+            "get": {
+                "summary": "get best categories",
+                "description": "get tags\n",
+                "operationId": "GetTags",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "after",
+                        "in": "query",
+                        "description": "after string."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_recent_categories": {
+            "get": {
+                "summary": "get recent categories",
+                "description": "get tags\n",
+                "operationId": "GetTags",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "after",
+                        "in": "query",
+                        "description": "after string."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_trending_categories": {
+            "get": {
+                "summary": "get trending categories",
+                "description": "get tags\n",
+                "operationId": "GetTags",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "after",
+                        "in": "query",
+                        "description": "after string."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_trending_tags": {
+            "get": {
+                "summary": "get trending categories",
+                "description": "get tags\n",
+                "operationId": "GetTags",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "afterTag",
+                        "in": "query",
+                        "description": "category."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_content": {
+            "get": {
+                "summary": "get content",
+                "description": "get content\n",
+                "operationId": "GetContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "author",
+                        "in": "query",
+                        "description": "author."
+                    },
+                    {
+                        "name": "permlink",
+                        "in": "query",
+                        "description": "permlink."
+                    }
+                ]
+            }
+        },
+        "\/get_content_replies": {
+            "get": {
+                "summary": "get content replies",
+                "description": "get content replies\n",
+                "operationId": "GetContentReplies",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "author",
+                        "in": "query",
+                        "description": "author."
+                    },
+                    {
+                        "name": "permlink",
+                        "in": "query",
+                        "description": "permlink."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_trending": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_trending30": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_created": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_active": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_promoted": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_cashout": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_payout": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_votes": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_children": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_hot": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsteemOrStartAuthorauthorPermlinkpermlinkForPaginatio",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_feed": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tags\":\"good-karma\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TagsgoodkarmaOrStartAuthorauthorPermlinkpermlinkForPagi",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_blog": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"good-karma\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
+                "operationId": "GetDiscussionsQueryExampleLimit10TaggoodkarmaOrStartAuthorauthorPermlinkpermlinkForPagin",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_comments": {
+            "get": {
+                "summary": "get discussions",
+                "description": "get discussions, | query example {\"start_author\":\"author\", \"start_permlink\":\"permlink\", \"limi\":\"10\"}\n",
+                "operationId": "GetDiscussionsQueryExampleStartAuthorauthorStartPermlinkpermlinkLimi10",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "query",
+                        "in": "query",
+                        "description": "query object."
+                    }
+                ]
+            }
+        },
+        "\/get_discussions_by_author_before_date": {
+            "get": {
+                "summary": "get_discussions_by_author_before_date",
+                "description": "get_discussions_by_author_before_date\n",
+                "operationId": "GetDiscussionsByAuthorBeforeDate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "author",
+                        "in": "query",
+                        "description": "author."
+                    },
+                    {
+                        "name": "startPermlink",
+                        "in": "query",
+                        "description": "permlink of post."
+                    },
+                    {
+                        "name": "beforeDate",
+                        "in": "query",
+                        "description": "date and time."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_replies_by_last_update": {
+            "get": {
+                "summary": "get_replies_by_last_update",
+                "description": "get_replies_by_last_update\n",
+                "operationId": "GetRepliesByLastUpdate",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "startAuthor",
+                        "in": "query",
+                        "description": "account name."
+                    },
+                    {
+                        "name": "startPermlink",
+                        "in": "query",
+                        "description": "permlink of post."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_state": {
+            "get": {
+                "summary": "get_state",
+                "description": "get_state\n",
+                "operationId": "GetState",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "path",
+                        "in": "query",
+                        "description": "account name."
+                    }
+                ]
+            }
+        },
+        "\/get_active_votes": {
+            "get": {
+                "summary": "get_active_votes",
+                "description": "get_active_votes\n",
+                "operationId": "GetActiveVotes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "author",
+                        "in": "query",
+                        "description": "author."
+                    },
+                    {
+                        "name": "permlink",
+                        "in": "query",
+                        "description": "permlink."
+                    }
+                ]
+            }
+        },
+        "\/get_account_votes": {
+            "get": {
+                "summary": "get_account_votes",
+                "description": "get_account_votes\n",
+                "operationId": "GetAccountVotes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "voter",
+                        "in": "query",
+                        "description": "account name."
+                    }
+                ]
+            }
+        },
+        "\/get_account_history": {
+            "get": {
+                "summary": "Account history",
+                "description": "Account history\n",
+                "operationId": "AccountHistory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    },
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "from witness."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_owner_history": {
+            "get": {
+                "summary": "get_owner_history",
+                "description": "get_owner_history\n",
+                "operationId": "GetOwnerHistory",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    }
+                ]
+            }
+        },
+        "\/get_accounts": {
+            "get": {
+                "summary": "Account",
+                "description": "Get Accounts from Steem\n",
+                "operationId": "GetAccountsFromSteem",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "names[]",
+                        "in": "query",
+                        "description": "name of account"
+                    }
+                ]
+            }
+        },
+        "\/get_conversion_requests": {
+            "get": {
+                "summary": "get conversation",
+                "description": "get conversation requests of account\n",
+                "operationId": "GetConversationRequestsOfAccount",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "accountName",
+                        "in": "query",
+                        "description": "witness account name."
+                    }
+                ]
+            }
+        },
+        "\/get_recovery_request": {
+            "get": {
+                "summary": "get_recovery_request",
+                "description": "get_recovery_request\n",
+                "operationId": "GetRecoveryRequest",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    }
+                ]
+            }
+        },
+        "\/lookup_account_names": {
+            "get": {
+                "summary": "lookup_account_names",
+                "description": "lookup_account_names example of accountNames [\"good-karma\", \"fabien\"]\n",
+                "operationId": "LookupAccountNamesExampleOfAccountnamesGoodkarmaFabien",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "accountNames",
+                        "in": "query",
+                        "description": "accountNames [\"good-karma\", \"fabien\"]."
+                    }
+                ]
+            }
+        },
+        "\/lookup_accounts": {
+            "get": {
+                "summary": "lookup_accounts",
+                "description": "lookup_accounts regex search\n",
+                "operationId": "LookupAccountsRegexSearch",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "lowerBoundName",
+                        "in": "query",
+                        "description": "lowerBoundName."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_follow_count": {
+            "get": {
+                "summary": "get_follow_count",
+                "description": "get_follow_count\n",
+                "operationId": "GetFollowCount",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    }
+                ]
+            }
+        },
+        "\/get_followers": {
+            "get": {
+                "summary": "get_followers",
+                "description": "get_followers\n",
+                "operationId": "GetFollowers",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "following",
+                        "in": "query",
+                        "description": "account name."
+                    },
+                    {
+                        "name": "startFollower",
+                        "in": "query",
+                        "description": "account name from followers for pagination."
+                    },
+                    {
+                        "name": "followType",
+                        "in": "query",
+                        "description": "follow type blog, etc."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_following": {
+            "get": {
+                "summary": "get_following",
+                "description": "get_following\n",
+                "operationId": "GetFollowing",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "follower",
+                        "in": "query",
+                        "description": "account name."
+                    },
+                    {
+                        "name": "startFollowing",
+                        "in": "query",
+                        "description": "account name from followings for pagination."
+                    },
+                    {
+                        "name": "followType",
+                        "in": "query",
+                        "description": "follow type blog, etc."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "limit."
+                    }
+                ]
+            }
+        },
+        "\/get_escrow": {
+            "get": {
+                "summary": "get_escrow",
+                "description": "get_escrow\n",
+                "operationId": "GetEscrow",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "from",
+                        "in": "query",
+                        "description": "from witness."
+                    },
+                    {
+                        "name": "escrowId",
+                        "in": "query",
+                        "description": "id."
+                    }
+                ]
+            }
+        },
+        "\/get_withdraw_routes": {
+            "get": {
+                "summary": "get_withdraw_routes",
+                "description": "get_withdraw_routes\n",
+                "operationId": "GetWithdrawRoutes",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    },
+                    {
+                        "name": "withdrawRouteType",
+                        "in": "query",
+                        "description": "withdrawRouteType."
+                    }
+                ]
+            }
+        },
+        "\/get_account_bandwidth": {
+            "get": {
+                "summary": "get_account_bandwidth",
+                "description": "get_account_bandwidth\n",
+                "operationId": "GetAccountBandwidth",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    },
+                    {
+                        "name": "bandwidthType",
+                        "in": "query",
+                        "description": "bandwidthType."
+                    }
+                ]
+            }
+        },
+        "\/get_savings_withdraw_from": {
+            "get": {
+                "summary": "get_savings_withdraw_from",
+                "description": "get_savings_withdraw_from\n",
+                "operationId": "GetSavingsWithdrawFrom",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    }
+                ]
+            }
+        },
+        "\/get_savings_withdraw_to": {
+            "get": {
+                "summary": "get_savings_withdraw_to",
+                "description": "get_savings_withdraw_to\n",
+                "operationId": "GetSavingsWithdrawTo",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "account",
+                        "in": "query",
+                        "description": "name of account"
+                    }
+                ]
+            }
+        },
+        "\/get_block": {
+            "get": {
+                "summary": "get block",
+                "description": "get block\n",
+                "operationId": "GetBlock",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "blockNum",
+                        "in": "query",
+                        "description": "get block content\/transactions."
+                    }
+                ]
+            }
+        },
+        "\/get_block_header": {
+            "get": {
+                "summary": "get block header",
+                "description": "get block header\n",
+                "operationId": "GetBlockHeader",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "blockNum",
+                        "in": "query",
+                        "description": "get block content\/transactions."
+                    }
+                ]
+            }
+        },
+        "\/get_ops_in_block": {
+            "get": {
+                "summary": "get_ops_in_block",
+                "description": "get_ops_in_block\n",
+                "operationId": "GetOpsInBlock",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "blockNum",
+                        "in": "query",
+                        "description": "get block content\/transactions."
+                    },
+                    {
+                        "name": "onlyVirtual",
+                        "in": "query",
+                        "description": "onlyVirtual."
+                    }
+                ]
+            }
+        },
+        "\/get_transaction_hex": {
+            "get": {
+                "summary": "get_transaction_hex",
+                "description": "get_transaction_hex\n",
+                "operationId": "GetTransactionHex",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    }
+                ]
+            }
+        },
+        "\/get_transaction": {
+            "get": {
+                "summary": "get_transaction",
+                "description": "get_transaction\n",
+                "operationId": "GetTransaction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trxId",
+                        "in": "query",
+                        "description": "transaction id."
+                    }
+                ]
+            }
+        },
+        "\/get_required_signatures": {
+            "get": {
+                "summary": "get_required_signatures",
+                "description": "get_required_signatures\n",
+                "operationId": "GetRequiredSignatures",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    },
+                    {
+                        "name": "availableKeys",
+                        "in": "query",
+                        "description": "availableKeys."
+                    }
+                ]
+            }
+        },
+        "\/get_potential_signatures": {
+            "get": {
+                "summary": "get_potential_signatures",
+                "description": "get_potential_signatures\n",
+                "operationId": "GetPotentialSignatures",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    }
+                ]
+            }
+        },
+        "\/verify_authority": {
+            "get": {
+                "summary": "verify_authority",
+                "description": "verify_authority\n",
+                "operationId": "VerifyAuthority",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    }
+                ]
+            }
+        },
+        "\/verify_account_authority": {
+            "get": {
+                "summary": "verify_account_authority",
+                "description": "verify_account_authority\n",
+                "operationId": "VerifyAccountAuthority",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "nameOrId",
+                        "in": "query",
+                        "description": "nameOrId."
+                    },
+                    {
+                        "name": "signers",
+                        "in": "query",
+                        "description": "signers."
+                    }
+                ]
+            }
+        },
+        "\/get_key_references": {
+            "get": {
+                "summary": "get_key_references",
+                "description": "get_key_references\n",
+                "operationId": "GetKeyReferences",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "key",
+                        "in": "query",
+                        "description": "key."
+                    }
+                ]
+            }
+        },
+        "\/broadcast_transaction": {
+            "get": {
+                "summary": "broadcast_transaction",
+                "description": "broadcast_transaction\n",
+                "operationId": "BroadcastTransaction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    }
+                ]
+            }
+        },
+        "\/broadcast_transaction_synchronous": {
+            "get": {
+                "summary": "broadcast_transaction_synchronous",
+                "description": "broadcast_transaction_synchronous\n",
+                "operationId": "BroadcastTransactionSynchronous",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    }
+                ]
+            }
+        },
+        "\/broadcast_block": {
+            "get": {
+                "summary": "broadcast_block",
+                "description": "broadcast_block\n",
+                "operationId": "BroadcastBlock",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "b",
+                        "in": "query",
+                        "description": "block."
+                    }
+                ]
+            }
+        },
+        "\/broadcast_transaction_with_callback": {
+            "get": {
+                "summary": "WARNING: can only be used in Steem node or in scripts broadcast_transaction_with_callback\n",
+                "description": "broadcast_transaction_with_callback\n",
+                "operationId": "BroadcastTransactionWithCallback",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "confirmationCallback",
+                        "in": "query",
+                        "description": "confirmationCallback function."
+                    },
+                    {
+                        "name": "trx",
+                        "in": "query",
+                        "description": "transaction hex."
+                    }
+                ]
+            }
+        },
+        "\/set_max_block_age": {
+            "get": {
+                "summary": "WARNING: can only be used in Steem node or in scripts set_max_block_age\n",
+                "description": "set_max_block_age\n",
+                "operationId": "SetMaxBlockAge",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "maxBlockAge",
+                        "in": "query",
+                        "description": "maxBlockAge."
+                    }
+                ]
+            }
+        },
+        "\/set_subscribe_callback": {
+            "get": {
+                "summary": "WARNING: can only be used in Steem node or in scripts set_subscribe_callback\n",
+                "description": "set_subscribe_callback \n",
+                "operationId": "SetSubscribeCallback",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "callback",
+                        "in": "query",
+                        "description": "callback function."
+                    },
+                    {
+                        "name": "clearFilter",
+                        "in": "query",
+                        "description": "clearFilter."
+                    }
+                ]
+            }
+        },
+        "\/set_pending_transaction_callback": {
+            "get": {
+                "summary": "WARNING: can only be used in Steem node or in scripts set_pending_transaction_callback\n",
+                "description": "set_pending_transaction_callback \n",
+                "operationId": "SetPendingTransactionCallback",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cb",
+                        "in": "query",
+                        "description": "callback function."
+                    }
+                ]
+            }
+        },
+        "\/set_block_applied_callback": {
+            "get": {
+                "summary": "WARNING: can only be used in Steem node or in scripts set_block_applied_callback\n",
+                "description": "set_block_applied_callback \n",
+                "operationId": "SetBlockAppliedCallback",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "cb",
+                        "in": "query",
+                        "description": "callback function."
+                    }
+                ]
+            }
+        },
+        "\/cancel_all_subscriptions": {
+            "get": {
+                "summary": "WARNING: can only be used in Steem node or in scripts cancel_all_subscriptions\n",
+                "description": "cancel_all_subscriptions \n",
+                "operationId": "CancelAllSubscriptions",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/get_api_by_name": {
+            "get": {
+                "summary": "get_api_by_name",
+                "description": "get_api_by_name\n",
+                "operationId": "GetApiByName",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "apiName",
+                        "in": "query",
+                        "description": "apiName."
+                    }
+                ]
+            }
+        },
+        "\/swagger": {
+            "x-swagger-pipe": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "_": {
+                "type": "object",
+                "properties": {
+                    "example": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "example_": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    }
+                }
+            },
+            "get_version": {
+                "type": "object",
+                "properties": {
+                    "blockchain_version": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "steem_revision": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "fc_revision": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    }
+                }
+            },
+            "Accounts": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "json_metadata": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "created": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "reputation": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    }
+                }
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "x-swagger-pipe"
+                    }
+                }
+            }
+        }
+    }
+}
