@@ -1,5 +1,5 @@
 {
-    "id": "0766f004e231de9a418984e284a76c86",
+    "id": "85c0ff1cd38847058e384df22824a3bc",
     "name": "Interactive Steem API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "29c386d6ad231069d97e091a32147019",
+            "id": "5b24038ab7f422411c783a93e0decab2",
             "name": "get version of Steem",
             "url": "httpsapi.steemjs.com\/\/get_version",
             "description": "Returns version information of connected Steem node\/websocket.\n",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "d6aadfa31ad72cb5041800f891f44fc4",
+            "id": "013ea0d03ce8a4bc69e6d729967865de",
             "name": "number of accounts",
             "url": "httpsapi.steemjs.com\/\/get_account_count",
             "description": "Get Number of Accounts from Steem\n",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "9275a7c0a4c0141ba5ad1ab36eee7532",
+            "id": "c7067760b9a3a09839f214d5e749e6b0",
             "name": "get chain properties",
             "url": "httpsapi.steemjs.com\/\/get_chain_properties",
             "description": "get chain properties\n",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "332ada0207a3ea571ffe513dc8f7b204",
+            "id": "8a44852e89589668afc45508d69bb0b7",
             "name": "get config",
             "url": "httpsapi.steemjs.com\/\/get_config",
             "description": "get config\n",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "1d2c91a07a5a196c44138f12d330964a",
+            "id": "b4d4689d001f337c00bbe334f7d91cd1",
             "name": "get_dynamic_global_properties",
             "url": "httpsapi.steemjs.com\/\/get_dynamic_global_properties",
             "description": "get_dynamic_global_properties\n",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "82970607d0f7e958c4b0e2cb8b54d701",
+            "id": "2ad536f2880d60d25f7d1224f182e303",
             "name": "get_feed_history",
             "url": "httpsapi.steemjs.com\/\/get_feed_history",
             "description": "get_feed_history\n",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "279b5369535d3bc80b05273f95aa3e1f",
+            "id": "5a02e544120cc7cbaca83bb0eb101619",
             "name": "get_current_median_history_price",
             "url": "httpsapi.steemjs.com\/\/get_current_median_history_price",
             "description": "get_current_median_history_price\n",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "70f856acaf8837472c2428980296a5df",
+            "id": "81dff30bd347da2e2cd85ab4a2572cec",
             "name": "get_hardfork_version",
             "url": "httpsapi.steemjs.com\/\/get_hardfork_version",
             "description": "get_hardfork_version\n",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "05aeec345a8440bd0f2f97612d64e5ba",
+            "id": "e5d4870a234664564e87b3420769c4e6",
             "name": "get_next_scheduled_hardfork",
             "url": "httpsapi.steemjs.com\/\/get_next_scheduled_hardfork",
             "description": "get_next_scheduled_hardfork\n",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "07fec0d200cc8392dbaed98efc758711",
+            "id": "40b862726d6b1ca7953c47dd22355ab6",
             "name": "get_witness_count",
             "url": "httpsapi.steemjs.com\/\/get_witness_count",
             "description": "get_witness_count\n",
@@ -236,11 +236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "44ff7377f945ebb5ea58f2b5052e5709",
+            "id": "6f01122eb607860a5b2bdbbef6772e0b",
             "name": "lookup_witness_accounts",
             "url": "httpsapi.steemjs.com\/\/lookup_witness_accounts",
             "description": "lookup_witness_accounts regex search\n",
@@ -274,11 +274,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "9b40ab515c4d42ea33a3c53bf41db4ea",
+            "id": "5669db3f70042906a1614edd0d164b5e",
             "name": "get_witness_schedule",
             "url": "httpsapi.steemjs.com\/\/get_witness_schedule",
             "description": "get_witness_schedule\n",
@@ -297,11 +297,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "f91748de312849ec92bffbf794a701fe",
+            "id": "c5293f28c1c579744e7ec6722a489f85",
             "name": "get_witnesses",
             "url": "httpsapi.steemjs.com\/\/get_witnesses",
             "description": "get_witnesses\n",
@@ -328,11 +328,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "3fe360a65acdad6f8908d3247002905d",
+            "id": "8279e88d63b90a068d724ddc107b6e75",
             "name": "get_witness_by_account",
             "url": "httpsapi.steemjs.com\/\/get_witness_by_account",
             "description": "get_witness_by_account\n",
@@ -359,11 +359,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "88909e59cfd6717794631ccbf3563757",
+            "id": "532def63d336072171d4ddba83714ccc",
             "name": "get_witnesses_by_vote",
             "url": "httpsapi.steemjs.com\/\/get_witnesses_by_vote",
             "description": "get_witnesses_by_vote\n",
@@ -397,11 +397,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "b4096b9f8f6577ad78cd2ce5b63cc4f8",
+            "id": "0a626136545e431db496764367ccdafb",
             "name": "get_active_witnesses",
             "url": "httpsapi.steemjs.com\/\/get_active_witnesses",
             "description": "get_active_witnesses\n",
@@ -420,11 +420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "7039b24579dd2c4091c1c32ddf73fcc3",
+            "id": "432791c2aca596f64be3371b9b31ac45",
             "name": "witness_update",
             "url": "httpsapi.steemjs.com\/\/witness_update",
             "description": "witness_update\n",
@@ -479,11 +479,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "e41303effd64067c67eb0b92ef00e2bc",
+            "id": "fc9ae16b62542c70f78dbf24c4d03141",
             "name": "get_miner_queue",
             "url": "httpsapi.steemjs.com\/\/get_miner_queue",
             "description": "get_miner_queue\n",
@@ -502,11 +502,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "a93ca91f64ef92db949225211df7b9ce",
+            "id": "bf2a561a5f6abf504b0f2de2e763712f",
             "name": "get_liquidity_queue",
             "url": "httpsapi.steemjs.com\/\/get_liquidity_queue",
             "description": "get_liquidity_queue\n",
@@ -540,11 +540,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "c72f02a6c467623044943bcf659dbdc4",
+            "id": "cb7a2a7e747401e09163f97dbe737d0c",
             "name": "get_open_orders",
             "url": "httpsapi.steemjs.com\/\/get_open_orders",
             "description": "get_open_orders\n",
@@ -571,11 +571,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "5f437760c8549344d6c603b630d517fb",
+            "id": "b8f8cb0f5a238b770b0737776cf34c56",
             "name": "get_order_book",
             "url": "httpsapi.steemjs.com\/\/get_order_book",
             "description": "get_order_book\n",
@@ -602,11 +602,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "c745ee3bcf2b5a021008623c73cb19b4",
+            "id": "50f0c9c50f34772968d1ec6204eb9aaf",
             "name": "get active categories",
             "url": "httpsapi.steemjs.com\/\/get_active_categories",
             "description": "get tags\n",
@@ -640,11 +640,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "d759e96d19a548b8bf310a7194ea0dfd",
+            "id": "38372a3a430e1c2207600f37b31d9391",
             "name": "get best categories",
             "url": "httpsapi.steemjs.com\/\/get_best_categories",
             "description": "get tags\n",
@@ -678,11 +678,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "26c5fb9ed3a3bb91cc82932a0e0acad8",
+            "id": "4645b9dda2b08a737b9b807bb3418ad1",
             "name": "get recent categories",
             "url": "httpsapi.steemjs.com\/\/get_recent_categories",
             "description": "get tags\n",
@@ -716,11 +716,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "3293e235de029fbfcd038e667aba8b23",
+            "id": "5d30a885fc6caac3a3168f3bd9ee96c8",
             "name": "get trending categories",
             "url": "httpsapi.steemjs.com\/\/get_trending_categories",
             "description": "get tags\n",
@@ -754,11 +754,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "a19c71d02d9525db3546e380aa5c5656",
+            "id": "123b49e8b673598d6c346f1f0b4c0352",
             "name": "get trending categories",
             "url": "httpsapi.steemjs.com\/\/get_trending_tags",
             "description": "get tags\n",
@@ -792,11 +792,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "b610335dc4ad74603cd001edc571f53a",
+            "id": "004ee6657c7e38bcf1484e8ed320c263",
             "name": "get content",
             "url": "httpsapi.steemjs.com\/\/get_content",
             "description": "get content\n",
@@ -830,11 +830,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "03fdf40e4c1f3d1287567daa70d59118",
+            "id": "103cee02982f408f3614dd9fb387b6fc",
             "name": "get content replies",
             "url": "httpsapi.steemjs.com\/\/get_content_replies",
             "description": "get content replies\n",
@@ -868,11 +868,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "955e230ef37e7197859dec42099edd28",
+            "id": "8791ab177eb40d63b411a91447946de7",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_trending",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -899,11 +899,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "ab45e8ced9fcab5f752a8ef2f29a8907",
+            "id": "1386756c18a75b9177a924b3be89da10",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_trending30",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -930,11 +930,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "926b7c5ce373ed766a648a0a07335373",
+            "id": "33f71c3a86ea7b475b6ad485a6eac022",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_created",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -961,11 +961,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "d20e4f68460b5265516273ec7e2cf7e0",
+            "id": "962a6403032ec3c12cd5c8fe719e743d",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_active",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -992,11 +992,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "66d2685ca9751b48f8a39753efa01216",
+            "id": "9faf235f7e962bd355c0eaaa5eb1d5db",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_promoted",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1023,11 +1023,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "29e198986e940811be481b65932477b0",
+            "id": "2a468a0601727e3f4fe363207aa2daf3",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_cashout",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1054,11 +1054,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "8fa67d18e4f0d9b444f66321da56f4f5",
+            "id": "46ff686df3ca4da064ec8c574441f3b5",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_payout",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1085,11 +1085,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "24fa9e5a4137f6afe13f0bbee5995270",
+            "id": "187b331c83e90b93be3a51c04e5af00c",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_votes",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1116,11 +1116,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "aefbe8ff2d43b51f6ec4670b951bf245",
+            "id": "2a4808cc56015ace5556e29a6a9b590f",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_children",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1147,11 +1147,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "e3a33ae7df042eaffa921191ddb633bf",
+            "id": "3f9adeefc1b38c151c2d234d49bb84db",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_hot",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"steem\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1178,11 +1178,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "f3499de24db5a2876e0baa5b70dfe73e",
+            "id": "987cb7015581f00e820c85e13072ccbd",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_feed",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tags\":\"good-karma\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1209,11 +1209,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "62ff15c0072fa267a4affa230c55cfc1",
+            "id": "797826c4a45322eb856304e129c0b700",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_blog",
             "description": "get discussions, | query example {\"limit\":\"10\", \"tag\":\"good-karma\"} OR {\"start_author\":\"author\", \"permlink\":\"permlink\"} for pagination\n",
@@ -1240,11 +1240,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "ce7d0b23333a25a513e653f0d330880a",
+            "id": "8e8fbe9bb5a00a97cdb887ad0bc3ae47",
             "name": "get discussions",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_comments",
             "description": "get discussions, | query example {\"start_author\":\"author\", \"start_permlink\":\"permlink\", \"limi\":\"10\"}\n",
@@ -1271,11 +1271,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "5cf7f87f59d51ed07e3775337293a73f",
+            "id": "6054e47868a1851de03817614d935091",
             "name": "get_discussions_by_author_before_date",
             "url": "httpsapi.steemjs.com\/\/get_discussions_by_author_before_date",
             "description": "get_discussions_by_author_before_date\n",
@@ -1323,11 +1323,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "6d8616370961b826d750a3b2cc8e0670",
+            "id": "e2f30f1fdc1ffb96c1af9a5de1b028ed",
             "name": "get_replies_by_last_update",
             "url": "httpsapi.steemjs.com\/\/get_replies_by_last_update",
             "description": "get_replies_by_last_update\n",
@@ -1368,11 +1368,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "baf066b5ded84bd77c6d01e93ce3d712",
+            "id": "1cda4f5328fc9fb82012b819e704fb45",
             "name": "get_state",
             "url": "httpsapi.steemjs.com\/\/get_state",
             "description": "get_state\n",
@@ -1399,11 +1399,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "211ce572a6c994624c45b2e4b4fa61b2",
+            "id": "faaffeef568603e01b27f810a36ea55e",
             "name": "get_active_votes",
             "url": "httpsapi.steemjs.com\/\/get_active_votes",
             "description": "get_active_votes\n",
@@ -1437,11 +1437,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "fc4c415878ffda1bb8aad27c3706a7cf",
+            "id": "c11ef84b6e7edd8be0a670010f3d2db9",
             "name": "get_account_votes",
             "url": "httpsapi.steemjs.com\/\/get_account_votes",
             "description": "get_account_votes\n",
@@ -1468,11 +1468,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "d19c7cd1898448d41c58737455464180",
+            "id": "7824888e3c23816064f3a6afb2f1aeb5",
             "name": "Account history",
             "url": "httpsapi.steemjs.com\/\/get_account_history",
             "description": "Account history\n",
@@ -1513,11 +1513,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "e065c882cd45417c79a3424f4ac7ff23",
+            "id": "1d6ac6eb797f0b8f7865f87491b3b68a",
             "name": "get_owner_history",
             "url": "httpsapi.steemjs.com\/\/get_owner_history",
             "description": "get_owner_history\n",
@@ -1544,11 +1544,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "fe4c36aebc7b4fcf8ab6e7d240c28fcb",
+            "id": "2e3bc46129b5173bd5b8d83f29a18f9b",
             "name": "Account",
             "url": "httpsapi.steemjs.com\/\/get_accounts",
             "description": "Get Accounts from Steem\n",
@@ -1575,11 +1575,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "4c0f5b47d97b3384ca11251ac5fb21b6",
+            "id": "6ad80d08dea43c8e6ff14d9f3318ee26",
             "name": "get conversation",
             "url": "httpsapi.steemjs.com\/\/get_conversion_requests",
             "description": "get conversation requests of account\n",
@@ -1606,11 +1606,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "37c0c5f26c8809b7b7ef425e3509d716",
+            "id": "77086f6e92061318336cba7a19dbb5a4",
             "name": "get_recovery_request",
             "url": "httpsapi.steemjs.com\/\/get_recovery_request",
             "description": "get_recovery_request\n",
@@ -1637,11 +1637,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "b5448fd3f9798ff922ac6f3f0d1e8214",
+            "id": "4733c2150821c1ac64231c70207117b7",
             "name": "lookup_account_names",
             "url": "httpsapi.steemjs.com\/\/lookup_account_names",
             "description": "lookup_account_names example of accountNames [\"good-karma\", \"fabien\"]\n",
@@ -1668,11 +1668,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "767944b96d88520ce8c85616c40450aa",
+            "id": "ebb3a454e792c4a00910533dbd668a13",
             "name": "lookup_accounts",
             "url": "httpsapi.steemjs.com\/\/lookup_accounts",
             "description": "lookup_accounts regex search\n",
@@ -1706,11 +1706,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "ec6f69a8550a2685bf17b8136c2421cf",
+            "id": "5905f12a8d6d3f231563c5e936fe64c7",
             "name": "get_follow_count",
             "url": "httpsapi.steemjs.com\/\/get_follow_count",
             "description": "get_follow_count\n",
@@ -1737,11 +1737,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "714bb0c063126de6fbafab6aa5ba610e",
+            "id": "7395fd9e0eb3c09a06cc57bc83b29797",
             "name": "get_followers",
             "url": "httpsapi.steemjs.com\/\/get_followers",
             "description": "get_followers\n",
@@ -1789,11 +1789,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "83eb44c9578096ebc6226bfdbd238f2d",
+            "id": "f9425941fb8bfc86034be0d7c9ffec25",
             "name": "get_following",
             "url": "httpsapi.steemjs.com\/\/get_following",
             "description": "get_following\n",
@@ -1841,11 +1841,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "a17b2fd062ed8256e10bac26a7b0839d",
+            "id": "aa6120d2b1f328a741b0b08dff754671",
             "name": "get_escrow",
             "url": "httpsapi.steemjs.com\/\/get_escrow",
             "description": "get_escrow\n",
@@ -1879,11 +1879,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "525c8bd18d8b05e936a7c3213d8a7ea0",
+            "id": "de58218cba497d6062b2a487b52400ba",
             "name": "get_withdraw_routes",
             "url": "httpsapi.steemjs.com\/\/get_withdraw_routes",
             "description": "get_withdraw_routes\n",
@@ -1917,11 +1917,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "b1c612b9199ba499142505707fde2f0d",
+            "id": "67ce5ed810efbd3aa1723a8e65d7f90d",
             "name": "get_account_bandwidth",
             "url": "httpsapi.steemjs.com\/\/get_account_bandwidth",
             "description": "get_account_bandwidth\n",
@@ -1955,11 +1955,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "c663449ee9b229c416f225169eebb978",
+            "id": "1b0266e6760c781fd7e545f48d35ead8",
             "name": "get_savings_withdraw_from",
             "url": "httpsapi.steemjs.com\/\/get_savings_withdraw_from",
             "description": "get_savings_withdraw_from\n",
@@ -1986,11 +1986,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "c0ce89334bdfddd46ed6d4fa4852cf5f",
+            "id": "166c9655c2d7948bcb5cdee3c0c29f3a",
             "name": "get_savings_withdraw_to",
             "url": "httpsapi.steemjs.com\/\/get_savings_withdraw_to",
             "description": "get_savings_withdraw_to\n",
@@ -2017,11 +2017,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "89f2265b51c3572007565978cb2a147b",
+            "id": "52983e99918e69846b72b26bf731a09c",
             "name": "get block",
             "url": "httpsapi.steemjs.com\/\/get_block",
             "description": "get block\n",
@@ -2048,11 +2048,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "beb22b85474c81dc932a867decd710e1",
+            "id": "181ff149045e3c1ec46617f2b5029306",
             "name": "get block header",
             "url": "httpsapi.steemjs.com\/\/get_block_header",
             "description": "get block header\n",
@@ -2079,11 +2079,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "cef69ddb7810b9d7c3461faf6e397e80",
+            "id": "60543f2517f4750c7bfb0053f467bb9a",
             "name": "get_ops_in_block",
             "url": "httpsapi.steemjs.com\/\/get_ops_in_block",
             "description": "get_ops_in_block\n",
@@ -2117,11 +2117,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "438998f7abd6e282772a8ad09c3e71ed",
+            "id": "2d6827da9ef86fdc5f9027a6e14e782f",
             "name": "get_transaction_hex",
             "url": "httpsapi.steemjs.com\/\/get_transaction_hex",
             "description": "get_transaction_hex\n",
@@ -2148,11 +2148,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "5eb253ef5c0e1060986fce9eba488315",
+            "id": "6898f2ce0317cb0db41c4d83ef263c63",
             "name": "get_transaction",
             "url": "httpsapi.steemjs.com\/\/get_transaction",
             "description": "get_transaction\n",
@@ -2179,11 +2179,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "3521ca7d7cadb7606c6da875756ca313",
+            "id": "509c100734ed62e28b13cb020c8597df",
             "name": "get_required_signatures",
             "url": "httpsapi.steemjs.com\/\/get_required_signatures",
             "description": "get_required_signatures\n",
@@ -2217,11 +2217,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "b387bb6decba2902c12a66e80ea42e9f",
+            "id": "83c6a17a75157984405369c6b24b5c3a",
             "name": "get_potential_signatures",
             "url": "httpsapi.steemjs.com\/\/get_potential_signatures",
             "description": "get_potential_signatures\n",
@@ -2248,11 +2248,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "7fa3c4e01882adcbc3de0de4d02d04aa",
+            "id": "4aef19d48063a3aeb838112f752401b0",
             "name": "verify_authority",
             "url": "httpsapi.steemjs.com\/\/verify_authority",
             "description": "verify_authority\n",
@@ -2279,11 +2279,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "e58da44520d29a9e12543d2d1c5cb686",
+            "id": "b56a6ec7ebf86054b78499de14bb7ba0",
             "name": "verify_account_authority",
             "url": "httpsapi.steemjs.com\/\/verify_account_authority",
             "description": "verify_account_authority\n",
@@ -2317,11 +2317,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "0a7de203ed5e1384e3a913351e1217ff",
+            "id": "dc5c3ad51b3dc96de1e2c30156142ba2",
             "name": "get_key_references",
             "url": "httpsapi.steemjs.com\/\/get_key_references",
             "description": "get_key_references\n",
@@ -2348,11 +2348,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "a8edeb2e62c9ba33e94c5f57e0d4d270",
+            "id": "b36ea276df136c6058e3450238223ebd",
             "name": "broadcast_transaction",
             "url": "httpsapi.steemjs.com\/\/broadcast_transaction",
             "description": "broadcast_transaction\n",
@@ -2379,11 +2379,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "48c1cc02452cee243c64c15d03bf8e4f",
+            "id": "69faf1b23b0a99bb01d150d7de32561b",
             "name": "broadcast_transaction_synchronous",
             "url": "httpsapi.steemjs.com\/\/broadcast_transaction_synchronous",
             "description": "broadcast_transaction_synchronous\n",
@@ -2410,11 +2410,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "3ed24886b1184a8e1add6adb3135ab51",
+            "id": "896f89724de055dcf45b06a5bf6bbb64",
             "name": "broadcast_block",
             "url": "httpsapi.steemjs.com\/\/broadcast_block",
             "description": "broadcast_block\n",
@@ -2441,11 +2441,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "95ca9ef2cf71d665cae8d594be92bacb",
+            "id": "00c6eb20c263ca38444489bbc390c5a0",
             "name": "WARNING: can only be used in Steem node or in scripts broadcast_transaction_with_callback\n",
             "url": "httpsapi.steemjs.com\/\/broadcast_transaction_with_callback",
             "description": "broadcast_transaction_with_callback\n",
@@ -2479,11 +2479,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "6daee11c35e479ee57d9e2604ebe3cab",
+            "id": "34cee453d08d5a8f8ed0ddb37e57141e",
             "name": "WARNING: can only be used in Steem node or in scripts set_max_block_age\n",
             "url": "httpsapi.steemjs.com\/\/set_max_block_age",
             "description": "set_max_block_age\n",
@@ -2510,11 +2510,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "d4abeebbdb51bf6d845692961abe069f",
+            "id": "571072adec824e5e45f07f46f5865f2a",
             "name": "WARNING: can only be used in Steem node or in scripts set_subscribe_callback\n",
             "url": "httpsapi.steemjs.com\/\/set_subscribe_callback",
             "description": "set_subscribe_callback \n",
@@ -2548,11 +2548,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "f5f8fa4add9b7d0d2e1ccbadc2baa67a",
+            "id": "8da056ad85fd63bf7a663b07678552ad",
             "name": "WARNING: can only be used in Steem node or in scripts set_pending_transaction_callback\n",
             "url": "httpsapi.steemjs.com\/\/set_pending_transaction_callback",
             "description": "set_pending_transaction_callback \n",
@@ -2579,11 +2579,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "25fcca0b0e1b530b826efa3535581176",
+            "id": "89b05ae60695848b39d7386715a62f16",
             "name": "WARNING: can only be used in Steem node or in scripts set_block_applied_callback\n",
             "url": "httpsapi.steemjs.com\/\/set_block_applied_callback",
             "description": "set_block_applied_callback \n",
@@ -2610,11 +2610,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "a6116299bc53183a55f3a5485dee7053",
+            "id": "0caae620ac8b136aa9f385a8a228c5a6",
             "name": "WARNING: can only be used in Steem node or in scripts cancel_all_subscriptions\n",
             "url": "httpsapi.steemjs.com\/\/cancel_all_subscriptions",
             "description": "cancel_all_subscriptions \n",
@@ -2633,11 +2633,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "300ecb2fd10e30710584c588ce05fa7e",
+            "id": "853839c394dcaba4272d5792c5fc6e2d",
             "name": "get_api_by_name",
             "url": "httpsapi.steemjs.com\/\/get_api_by_name",
             "description": "get_api_by_name\n",
@@ -2664,11 +2664,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         },
         {
-            "id": "e15d66d992deca72cfba64427f69c87f",
+            "id": "1c262d029b07f2a40d8315361e05c519",
             "name": "",
             "url": "httpsapi.steemjs.com\/\/swagger",
             "description": "",
@@ -2687,7 +2687,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0766f004e231de9a418984e284a76c86",
+            "collectionId": "85c0ff1cd38847058e384df22824a3bc",
             "rawModeData": ""
         }
     ]
