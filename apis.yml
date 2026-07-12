@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://developers.steem.io/
 common:
+  - type: DomainSecurity
+    url: security/steem-domain-security.yml
   - type: Website
     url: https://developers.steem.io/
   - type: PublicAPIsListing
