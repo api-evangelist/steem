@@ -39,7 +39,6 @@ apis:
   - name: Steem
     description: "Blockchain-based blogging and social media website"
     humanURL: https://developers.steem.io/
-    baseURL: https://developers.steem.io/
     tags:
       - Blockchain
     properties:
